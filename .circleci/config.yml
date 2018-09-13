@@ -2,7 +2,7 @@ version: 2
 jobs:
   linux:
     docker:
-      - image: norio-nomura/docker-swift:swift-4.2-branch
+      - image: norionomura/swift:swift-4.2-branch
     steps:
       - checkout
       - run:
