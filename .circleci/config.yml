@@ -48,3 +48,9 @@ jobs:
           key: gem-cache-v1-{{ arch }}-{{ .Branch }}-{{ checksum "Gemfile.lock" }}
           paths:
             - vendor/bundle
+
+workflows:
+  version: 2
+  linux_and_macos:
+    - linux
+    - macos
