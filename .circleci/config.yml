@@ -1,6 +1,6 @@
 version: 2
 jobs:
-  build:
+  linux:
     docker:
       - image: norio-nomura/docker-swift:swift-4.2-branch
     steps:
@@ -14,7 +14,7 @@ jobs:
       - run:
           name: Test
           command: swift test
-  build:
+  macos:
     macos:
       xcode: "10.0.0"
     steps:
