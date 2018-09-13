@@ -51,6 +51,7 @@ jobs:
 
 workflows:
   version: 2
-  linux_and_macos:
-    - linux
-    - macos
+  linux-and-macos:
+    jobs:
+      - linux
+      - macos
