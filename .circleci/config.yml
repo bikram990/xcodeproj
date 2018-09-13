@@ -6,9 +6,6 @@ jobs:
     steps:
       - checkout
       - run:
-          name: Install Swift
-          command: script/install-swift
-      - run:
           name: Build
           command: swift build -c release
       - run:
