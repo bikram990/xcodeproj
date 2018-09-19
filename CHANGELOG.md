@@ -2,6 +2,9 @@
 
 ## next version
 
+### Changed
+- Bump AEXML to 4.3.2 https://github.com/tuist/xcodeproj/pull/310 by @pepibumur.
+
 ## 6.0.0
 
 Note: Migration guidelines are included in the project README.
